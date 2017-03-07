@@ -13,6 +13,10 @@
 			</td>
 			<td>
 				<h1 id = "message"><?php echo "Jose henrique"; ?></h1>
+				<form method="POST" action="./">
+   					 <input type="text" name="nome" />
+   					 <input type="submit" value="Cadastrar" />
+				</form>
 				<p class='description'></p> Thanks for creating a <span class="blue">PHP Starter Application</span>.
 			</td>
 		</tr>
